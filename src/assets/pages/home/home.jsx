@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Lottie from "lottie-react";
-import animationData from "../../lottie/systemadmin-icon.json";
+import animationData from "../../lottie/systemadmin-iconn.json";
 
 export default function Home() {
   useEffect(() => {

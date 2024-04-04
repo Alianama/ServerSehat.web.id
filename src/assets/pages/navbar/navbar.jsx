@@ -1,6 +1,7 @@
 import { useState } from "react";
 import whatsappIcon from "../../icon/whatsapp.svg";
 
+
 export default function Nav() {
   const [activeBtn, setActiveBtn] = useState(0);
   const handleClick = (index) => {
@@ -81,6 +82,7 @@ export default function Nav() {
         >
           Blog
         </a>
+
         <a
           className="btn"
           href={`https://api.whatsapp.com/send?phone=${"085110300113"}`}
