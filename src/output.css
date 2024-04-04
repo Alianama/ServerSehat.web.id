@@ -678,6 +678,10 @@ html {
   padding-right: 0.75rem;
 }
 
+.pb-20 {
+  padding-bottom: 5rem;
+}
+
 .pb-36 {
   padding-bottom: 9rem;
 }
@@ -692,22 +696,6 @@ html {
 
 .pt-36 {
   padding-top: 9rem;
-}
-
-.pt-0 {
-  padding-top: 0px;
-}
-
-.pb-7 {
-  padding-bottom: 1.75rem;
-}
-
-.pb-10 {
-  padding-bottom: 2.5rem;
-}
-
-.pb-20 {
-  padding-bottom: 5rem;
 }
 
 .text-2xl {
@@ -730,14 +718,9 @@ html {
   line-height: 1.25rem;
 }
 
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
 .text-color-1 {
   --tw-text-opacity: 1;
-  color: rgb(64 31 113 / var(--tw-text-opacity));
+  color: rgb(58 54 128 / var(--tw-text-opacity));
 }
 
 .text-color-2 {
@@ -768,7 +751,7 @@ html {
 
 .hover\:bg-color-1:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(64 31 113 / var(--tw-bg-opacity));
+  background-color: rgb(58 54 128 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-white:hover {

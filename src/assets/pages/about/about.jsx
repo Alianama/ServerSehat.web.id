@@ -1,8 +1,8 @@
 import { useEffect } from "react";
-// importing aos
 import AOS from "aos";
 import "aos/dist/aos.css";
-import aboutImage from "../../images/about-background.jpg";
+import Lottie from "lottie-react";
+import animationData from "../../lottie/server-icon.json";
 
 export default function About() {
   useEffect(() => {
@@ -12,7 +12,7 @@ export default function About() {
     <div id="about" className="flex  w-full pb-36 pt-36 overflow-hidden ">
       <div
         data-aos="fade-right"
-        data-aos-duration="2000"
+        data-aos-duration="1000"
         className="flex flex-col w-5/12 justify-center items-center max-md:w-full"
       >
         <h1 className="text-2xl justify-center pl-11  text-color-1 ">
@@ -34,12 +34,17 @@ export default function About() {
       </div>
       <div
         data-aos="fade-up"
-        data-aos-duration="2000"
+        data-aos-duration="1000"
         className="flex justify-center w-7/12"
       >
-        <img src={aboutImage} alt="about-image" width={500} />
+        <Lottie
+          animationData={animationData}
+          loop
+          autoplay
+          style={{ width: 500, height: 500 }}
+        />
+        {/* <img src={aboutImage} alt="about-image" width={500} /> */}
       </div>
-      
     </div>
   );
 }

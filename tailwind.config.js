@@ -9,12 +9,11 @@ export default {
       current: "currentColor",
       white: "#ffffff",
       color: {
-        1: "#401f71",
+        1: "#3a3680",
         2: "#58a399",
         3: "#FFC700",
         4: "#FFC700",
       },
-      // ...
     },
     extend: {
       animation: {

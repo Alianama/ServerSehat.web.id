@@ -1,7 +1,8 @@
-import HomeBackground from "../../images/home-background.jpg";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Lottie from "lottie-react";
+import animationData from "../../lottie/systemadmin-icon.json";
 
 export default function Home() {
   useEffect(() => {
@@ -32,13 +33,13 @@ export default function Home() {
           </a>
         </div>
       </div>
-      <div className=" ">
-        <img
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          src={HomeBackground}
-          alt="Home Background"
-          width={500}
+      <div>
+        <Lottie
+          data-aos="fade-down"
+          animationData={animationData}
+          loop
+          autoplay
+          style={{ width: 500, height: 500 }}
         />
       </div>
     </div>
