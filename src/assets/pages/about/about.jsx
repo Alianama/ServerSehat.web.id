@@ -39,6 +39,7 @@ export default function About() {
       >
         <img src={aboutImage} alt="about-image" width={500} />
       </div>
+      
     </div>
   );
 }

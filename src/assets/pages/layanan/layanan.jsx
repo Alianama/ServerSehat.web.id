@@ -8,10 +8,7 @@ export default function Layanan() {
     AOS.init();
   }, []);
   return (
-    <div
-      id="layanan"
-      className="flex gap-8 flex-col w-full justify-center pb-41 pt-11"
-    >
+    <div id="layanan" className="flex flex-col w-full justify-center pb-20">
       <div className="flex justify-center text-color-2 text-3xl">
         <h1>Layanan Kami</h1>
       </div>

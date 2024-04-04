@@ -8,7 +8,7 @@ export default function Nav() {
   };
 
   return (
-    <nav className="flex justify-center w-full items-center max-md:flex-col sticky top-0 z-50 ">
+    <nav className="flex justify-center w-full items-center max-md:flex-col sticky top-0 z-50 bg-white ">
       <div className="flex w-3/12 max-md:w-full justify-start ">
         <a href="/" className="text-color-2 text-2xl p-3 ">
           ServerSehat.web.id

@@ -595,10 +595,6 @@ html {
   width: 100%;
 }
 
-.flex-row {
-  flex-direction: row;
-}
-
 .flex-col {
   flex-direction: column;
 }
@@ -631,10 +627,6 @@ html {
   gap: 1.5rem;
 }
 
-.gap-8 {
-  gap: 2rem;
-}
-
 .self-start {
   align-self: flex-start;
 }
@@ -658,6 +650,11 @@ html {
 .bg-color-2 {
   --tw-bg-opacity: 1;
   background-color: rgb(88 163 153 / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .p-1 {
@@ -697,17 +694,30 @@ html {
   padding-top: 9rem;
 }
 
-.pt-20 {
-  padding-top: 5rem;
+.pt-0 {
+  padding-top: 0px;
 }
 
-.pb-40 {
-  padding-bottom: 10rem;
+.pb-7 {
+  padding-bottom: 1.75rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
+.pb-20 {
+  padding-bottom: 5rem;
 }
 
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .text-5xl {
@@ -720,9 +730,9 @@ html {
   line-height: 1.25rem;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
 }
 
 .text-color-1 {

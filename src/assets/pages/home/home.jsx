@@ -23,11 +23,9 @@ export default function Home() {
             bisnis Anda
           </h1>
         </div>
-        <div className="justify-center p-4  self-start">
+        <div className="justify-center p-4 dropShadow-4xl self-start">
           <a
-            className="bg-color-2  text-white hover:bg-color-1 p-2 rounded-full
-
-            "
+            className="bg-color-2  text-white hover:bg-color-1 p-2 rounded-full dropShadow-4xl "
             href="#layanan"
           >
             Layanan Kami {"-->"}
