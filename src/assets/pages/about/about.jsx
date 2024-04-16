@@ -28,7 +28,7 @@ export default function About() {
           pengaturan layanan dan aplikasi yang diperlukan. Tujuannya adalah
           untuk memastikan server beroperasi secara efisien, aman, dan dapat
           diandalkan dalam menyediakan layanan yang diperlukan oleh pengguna
-          atau organisasi yang mengandalkan infrastruktur server, seperti
+          atau organisasi yang mengandalkan infrastruktur server seperti
           platform Linux dan Windows.
         </p>
       </div>
@@ -43,7 +43,6 @@ export default function About() {
           autoplay
           style={{ width: 500, height: 500 }}
         />
-        {/* <img src={aboutImage} alt="about-image" width={500} /> */}
       </div>
     </div>
   );
