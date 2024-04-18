@@ -70,7 +70,7 @@ export default function Nav() {
             data-aos="fade-down"
             data-aos-anchor-placement="bottom-center"
             data-aos-duration="500"
-            className=" absolute right-0 flex text-color-2 flex-col w-full justify-center items-center gap-3 pb-4 bg-white shadow-[-4px_5px_12px_0px_#1a202c]"
+            className=" absolute right-0 flex text-color-2 flex-col w-full justify-center items-center gap-3 pb-4 pt-4 bg-white shadow-[-4px_5px_12px_0px_#1a202c]"
             onClick={() => setShowDiv(false)}
           >
             <div className="flex w-4/5 gap-2 flex-col">

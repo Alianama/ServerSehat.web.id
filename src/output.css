@@ -783,6 +783,10 @@ html {
   padding-bottom: 0px;
 }
 
+.pt-4 {
+  padding-top: 1rem;
+}
+
 .text-center {
   text-align: center;
 }
