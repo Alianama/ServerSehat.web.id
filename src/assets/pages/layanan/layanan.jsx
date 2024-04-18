@@ -12,14 +12,17 @@ export default function Layanan() {
     AOS.init();
   }, []);
   return (
-    <div id="layanan" className="flex flex-col w-full justify-center pb-20">
-      <div className="flex justify-center text-color-2 text-3xl">
+    <div className="flex flex-col w-full justify-center max-md:pb-10 max-md:pt-10 pb-20">
+      <div
+        id="layanan"
+        className="flex justify-center text-color-2 text-2xl pt-20 -mt-20"
+      >
         <h1>Layanan Kami</h1>
       </div>
       <div
         data-aos="fade-down"
         data-aos-duration="1000"
-        className="w-full justify-center flex"
+        className="w-full max-md:flex-col max-md:items-center max-md:gap-0 justify-center flex"
       >
         <Card
           image={ComputerIcon}

@@ -13,6 +13,7 @@ export default {
         2: "#58a399",
         3: "#FFC700",
         4: "#FFC700",
+        white: "#fff",
       },
     },
     extend: {

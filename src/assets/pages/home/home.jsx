@@ -11,20 +11,20 @@ export default function Home() {
   return (
     <div
       id="home"
-      className="flex max-md:flex-col justify-center items-center pb-36 pt-11 "
+      className="flex max-md:flex-col max-md:pt-0 max-md:pb-0 justify-center items-center pb-11 pt-11 max-md:shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"
     >
       <div
         className="flex flex-col w-7/12 justify-center items-center max-md:w-full "
         data-aos-duration="1000"
         data-aos="fade-right"
       >
-        <div className="text-5xl text-color-1 hover:text-color-2 justify-center p-3 transition duration-700 ease-in-out	  ">
+        <div className="text-5xl max-md:text-xl max-md:text-center text-color-1 hover:text-color-2 justify-center p-3 transition duration-700 ease-in-out	  ">
           <h1>
             Layanan Server Management yang dapat disesuaikan dengan kebutuhan
             bisnis Anda
           </h1>
         </div>
-        <div className="justify-center p-4 dropShadow-4xl self-start">
+        <div className="justify-center max-md:self-center p-4 dropShadow-4xl self-start">
           <a
             className="bg-color-2  text-white hover:bg-color-1 p-2 rounded-full dropShadow-4xl "
             href="#layanan"
@@ -33,13 +33,12 @@ export default function Home() {
           </a>
         </div>
       </div>
-      <div>
+      <div className="max-md:w-72 md:w-[500px] md:h-[500px] max-md:p-0 max-md:m-0">
         <Lottie
           data-aos="fade-down"
           animationData={animationData}
           loop
           autoplay
-          style={{ width: 500, height: 500 }}
         />
       </div>
     </div>
