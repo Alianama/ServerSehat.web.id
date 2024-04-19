@@ -1,7 +1,7 @@
 import "./cardStyle.css";
 import PropTypes from "prop-types";
 
-export default function Card({ image, name, description }) {
+function Card({ image, name, description }) {
   return (
     <div className="e-card playing">
       <div className="image">
@@ -25,3 +25,5 @@ Card.propTypes = {
   name: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
 };
+
+export default Card;

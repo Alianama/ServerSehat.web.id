@@ -579,12 +579,24 @@ html {
   z-index: 50;
 }
 
-.m-4 {
-  margin: 1rem;
-}
-
 .-mt-20 {
   margin-top: -5rem;
+}
+
+.ml-11 {
+  margin-left: 2.75rem;
+}
+
+.mr-3 {
+  margin-right: 0.75rem;
+}
+
+.mr-4 {
+  margin-right: 1rem;
+}
+
+.mr-5 {
+  margin-right: 1.25rem;
 }
 
 .flex {
@@ -595,16 +607,16 @@ html {
   height: 2.5rem;
 }
 
-.h-\[500px\] {
-  height: 500px;
-}
-
 .w-10 {
   width: 2.5rem;
 }
 
 .w-3\/12 {
   width: 25%;
+}
+
+.w-4\/5 {
+  width: 80%;
 }
 
 .w-5\/12 {
@@ -619,20 +631,8 @@ html {
   width: 75%;
 }
 
-.w-\[500px\] {
-  width: 500px;
-}
-
 .w-full {
   width: 100%;
-}
-
-.w-1\/12 {
-  width: 8.333333%;
-}
-
-.w-4\/5 {
-  width: 80%;
 }
 
 .cursor-pointer {
@@ -667,16 +667,16 @@ html {
   gap: 0.25rem;
 }
 
+.gap-2 {
+  gap: 0.5rem;
+}
+
 .gap-3 {
   gap: 0.75rem;
 }
 
 .gap-6 {
   gap: 1.5rem;
-}
-
-.gap-2 {
-  gap: 0.5rem;
 }
 
 .self-start {
@@ -738,9 +738,8 @@ html {
   padding-right: 0.75rem;
 }
 
-.px-1 {
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
+.pb-0 {
+  padding-bottom: 0px;
 }
 
 .pb-11 {
@@ -755,6 +754,10 @@ html {
   padding-bottom: 9rem;
 }
 
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
 .pl-11 {
   padding-left: 2.75rem;
 }
@@ -763,32 +766,16 @@ html {
   padding-top: 2.75rem;
 }
 
-.pt-36 {
-  padding-top: 9rem;
-}
-
-.pb-4 {
-  padding-bottom: 1rem;
-}
-
-.pr-5 {
-  padding-right: 1.25rem;
-}
-
 .pt-20 {
   padding-top: 5rem;
 }
 
-.pb-0 {
-  padding-bottom: 0px;
+.pt-36 {
+  padding-top: 9rem;
 }
 
 .pt-4 {
   padding-top: 1rem;
-}
-
-.text-center {
-  text-align: center;
 }
 
 .text-2xl {
@@ -816,11 +803,6 @@ html {
   color: rgb(88 163 153 / var(--tw-text-opacity));
 }
 
-.text-color-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -832,15 +814,9 @@ html {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.shadow-\[3px_3px_0px_3px_\#4a5568\] {
-  --tw-shadow: 3px 3px 0px 3px #4a5568;
-  --tw-shadow-colored: 3px 3px 0px 3px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.shadow-\[0px_0px_0px_1px_rgba\(0\2c 0\2c 0\2c 0\.06\)\2c 0px_1px_1px_-0\.5px_rgba\(0\2c 0\2c 0\2c 0\.06\)\2c 0px_3px_3px_-1\.5px_rgba\(0\2c 0\2c 0\2c 0\.06\)\2c _0px_6px_6px_-3px_rgba\(0\2c 0\2c 0\2c 0\.06\)\2c 0px_12px_12px_-6px_rgba\(0\2c 0\2c 0\2c 0\.06\)\2c 0px_24px_24px_-12px_rgba\(0\2c 0\2c 0\2c 0\.06\)\] {
-  --tw-shadow: 0px 0px 0px 1px rgba(0,0,0,0.06),0px 1px 1px -0.5px rgba(0,0,0,0.06),0px 3px 3px -1.5px rgba(0,0,0,0.06), 0px 6px 6px -3px rgba(0,0,0,0.06),0px 12px 12px -6px rgba(0,0,0,0.06),0px 24px 24px -12px rgba(0,0,0,0.06);
-  --tw-shadow-colored: 0px 0px 0px 1px var(--tw-shadow-color), 0px 1px 1px -0.5px var(--tw-shadow-color), 0px 3px 3px -1.5px var(--tw-shadow-color), 0px 6px 6px -3px var(--tw-shadow-color), 0px 12px 12px -6px var(--tw-shadow-color), 0px 24px 24px -12px var(--tw-shadow-color);
+.shadow-\[0_3px_10px_rgb\(0\2c 0\2c 0\2c 0\.2\)\] {
+  --tw-shadow: 0 3px 10px rgb(0,0,0,0.2);
+  --tw-shadow-colored: 0 3px 10px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
@@ -848,28 +824,6 @@ html {
   --tw-shadow: 0px 2px 3px -1px rgba(0,0,0,0.1),0px 1px 0px 0px rgba(25,28,33,0.02),0px 0px 0px 1px rgba(25,28,33,0.08);
   --tw-shadow-colored: 0px 2px 3px -1px var(--tw-shadow-color), 0px 1px 0px 0px var(--tw-shadow-color), 0px 0px 0px 1px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.shadow-\[0_3px_10px_rgb\(0\2c 0\2c 0\2c 0\.2\)\] {
-  --tw-shadow: 0 3px 10px rgb(0,0,0,0.2);
-  --tw-shadow-colored: 0 3px 10px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.shadow-\[rgba\(50\2c 50\2c 93\2c 0\.25\)_0px_6px_12px_-2px\2c _rgba\(0\2c 0\2c 0\2c 0\.3\)_0px_3px_7px_-3px\] {
-  --tw-shadow: rgba(50,50,93,0.25) 0px 6px 12px -2px, rgba(0,0,0,0.3) 0px 3px 7px -3px;
-  --tw-shadow-colored: 0px 6px 12px -2px var(--tw-shadow-color), 0px 3px 7px -3px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.drop-shadow-md {
-  --tw-drop-shadow: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.drop-shadow-lg {
-  --tw-drop-shadow: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .transition {
@@ -923,20 +877,8 @@ html {
     margin: 0px;
   }
 
-  .max-md\:mb-5 {
-    margin-bottom: 1.25rem;
-  }
-
-  .max-md\:mb-10 {
-    margin-bottom: 2.5rem;
-  }
-
   .max-md\:hidden {
     display: none;
-  }
-
-  .max-md\:h-2 {
-    height: 0.5rem;
   }
 
   .max-md\:w-72 {
@@ -945,10 +887,6 @@ html {
 
   .max-md\:w-full {
     width: 100%;
-  }
-
-  .max-md\:w-2 {
-    width: 0.5rem;
   }
 
   .max-md\:flex-row {
@@ -975,44 +913,24 @@ html {
     align-self: center;
   }
 
-  .max-md\:p-7 {
-    padding: 1.75rem;
-  }
-
   .max-md\:p-0 {
     padding: 0px;
+  }
+
+  .max-md\:p-7 {
+    padding: 1.75rem;
   }
 
   .max-md\:pb-0 {
     padding-bottom: 0px;
   }
 
-  .max-md\:pt-0 {
-    padding-top: 0px;
-  }
-
-  .max-md\:pb-1 {
-    padding-bottom: 0.25rem;
-  }
-
   .max-md\:pb-10 {
     padding-bottom: 2.5rem;
   }
 
-  .max-md\:pb-96 {
-    padding-bottom: 24rem;
-  }
-
-  .max-md\:pb-52 {
-    padding-bottom: 13rem;
-  }
-
-  .max-md\:pb-2 {
-    padding-bottom: 0.5rem;
-  }
-
-  .max-md\:pb-20 {
-    padding-bottom: 5rem;
+  .max-md\:pt-0 {
+    padding-top: 0px;
   }
 
   .max-md\:pt-10 {
