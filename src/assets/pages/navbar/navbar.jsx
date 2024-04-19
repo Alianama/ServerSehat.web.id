@@ -57,8 +57,8 @@ export default function Nav() {
     label: PropTypes.string.isRequired,
   };
 
-  NavItem.propTypes.active = NavItem.propTypes.onClick =
-    PropTypes.bool.isRequired;
+  NavItem.propTypes.active = PropTypes.bool.isRequired;
+  NavItem.propTypes.onClick = PropTypes.func.isRequired;
 
   return (
     <nav className={styles.nav}>
