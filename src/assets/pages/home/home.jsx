@@ -16,7 +16,7 @@ export default function Home() {
   const titleStyle =
     "text-5xl max-md:text-xl max-md:text-center text-color-1 hover:text-color-2 justify-center pl-11 p-3 transition duration-700 ease-in-out";
   const buttonStyle =
-    "justify-center max-md:self-center p-4 ml-11 dropShadow-4xl pl-11 self-start bg-color-2 text-white hover:bg-color-1 rounded-full dropShadow-4xl";
+    "justify-center max-md:self-center max-md:m-0 max-md:p-2 max-md:text-xs p-4 ml-11 dropShadow-4xl pl-11 self-start bg-color-2 text-white hover:bg-color-1 rounded-full dropShadow-4xl";
   const lottieContainerStyle =
     "max-md:w-72 md:w-[500px] md:h-[500px] max-md:p-0 max-md:m-0";
 

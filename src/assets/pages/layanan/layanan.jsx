@@ -39,18 +39,23 @@ export default function Layanan() {
     },
   ];
 
+  const styles = {
+    container:
+      "flex flex-col w-full justify-center max-md:pb-10 max-md:pt-10 pb-20",
+    titleContainer: "flex justify-center text-color-2 text-2xl pt-20 -mt-20",
+    cardContainer:
+      "w-full max-md:flex-col max-md:items-center max-md:gap-0 justify-center flex",
+  };
+
   return (
-    <div className="flex flex-col w-full justify-center max-md:pb-10 max-md:pt-10 pb-20">
-      <div
-        id="layanan"
-        className="flex justify-center text-color-2 text-2xl pt-20 -mt-20"
-      >
+    <div className={styles.container}>
+      <div id="layanan" className={styles.titleContainer}>
         <h1>Layanan Kami</h1>
       </div>
       <div
         data-aos="fade-down"
         data-aos-duration="1000"
-        className="w-full max-md:flex-col max-md:items-center max-md:gap-0 justify-center flex"
+        className={styles.cardContainer}
       >
         {layananItems.map((item) => (
           <Card

@@ -13,9 +13,9 @@
 }
 
 .e-card:hover {
-  /* transform: translateY(-6%); */
   transform: scale(1.09);
 }
+
 .image {
   margin-top: 0.5em;
 }
