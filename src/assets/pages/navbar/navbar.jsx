@@ -35,11 +35,7 @@ export default function Nav() {
   const NavItem = ({ link, label, active, onClick }) => (
     <a
       href={link}
-      className={`btn ${
-        active
-          ? "text-color-2 cursor-pointer"
-          : "hover:text-color-2 hover:bg-white cursor-pointer"
-      }`}
+      className={`btn ${active ? "text-color-2 cursor-pointer" : "hover:text-color-2 hover:bg-white cursor-pointer"}`}
       onClick={onClick}
     >
       {label}
@@ -64,16 +60,12 @@ export default function Nav() {
     <nav className={styles.nav}>
       <div className="flex w-3/12 max-md:w-full justify-start">
         <a href="/" className="text-color-2 text-2xl p-4">
-          ServerSehat.web.id
+          ServerSehat
         </a>
       </div>
       <div>
         <button onClick={toggleShowDiv}>
-          <img
-            src={hamburgerIcon}
-            alt="hamburger"
-            className={styles.hamburgerIcon}
-          />
+          <img src={hamburgerIcon} alt="hamburger" className={styles.hamburgerIcon} />
         </button>
         {showDiv && (
           <div
@@ -85,7 +77,7 @@ export default function Nav() {
           >
             <div className="flex w-4/5 gap-2 flex-col">
               <NavItemMobile link="#home" label="Home" />
-              <NavItemMobile link="#about" label="Tentang" />
+              <NavItemMobile link="#tentang" label="Tentang" />
               <NavItemMobile link="#layanan" label="Layanan" />
               <NavItemMobile link="#pricing" label="Pricing" />
               <NavItemMobile link="#Klien" label="Klien" />
@@ -106,17 +98,15 @@ export default function Nav() {
         )}
       </div>
       <div className={styles.navItem}>
-        {["Home", "Tentang", "Layanan", "Pricing", "Klien", "Blog"].map(
-          (item, index) => (
-            <NavItem
-              key={item}
-              link={`#${item.toLowerCase()}`}
-              label={item}
-              active={activeBtn === index}
-              onClick={() => handleNavItemClick(index)}
-            />
-          )
-        )}
+        {["Home", "Tentang", "Layanan", "Pricing", "Klien", "Blog"].map((item, index) => (
+          <NavItem
+            key={item}
+            link={`#${item.toLowerCase()}`}
+            label={item}
+            active={activeBtn === index}
+            onClick={() => handleNavItemClick(index)}
+          />
+        ))}
         <a
           className="btn"
           href={`https://api.whatsapp.com/send?phone=${"085110300113"}`}
