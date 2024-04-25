@@ -9,35 +9,27 @@ export default function Home() {
     AOS.init();
   }, []);
 
-  const homeSectionStyle =
-    "flex max-md:flex-col max-md:pt-0 max-md:pb-0 justify-center items-center pb-11 pt-11 max-md:shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]";
-  const homeTextStyle =
-    "flex flex-col w-7/12 justify-center items-center max-md:w-full";
-  const titleStyle =
-    "text-5xl max-md:text-xl max-md:text-center text-color-1 hover:text-color-2 justify-center pl-11 p-3 transition duration-700 ease-in-out";
-  const buttonStyle =
-    "justify-center max-md:self-center max-md:m-0 max-md:p-2 max-md:text-xs p-4 ml-11 dropShadow-4xl pl-11 self-start bg-color-2 text-white hover:bg-color-1 rounded-full dropShadow-4xl";
-  const lottieContainerStyle =
-    "max-md:w-72 md:w-[500px] md:h-[500px] max-md:p-0 max-md:m-0";
-
   return (
-    <div id="home" className={homeSectionStyle}>
+    <div
+      id="home"
+      className="flex max-md:flex-col  max-md:pb-0 justify-center items-center pb-11 pt-11 max-md:shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] max-md:pt-20 "
+    >
       <div
-        className={homeTextStyle}
+        className="flex flex-col w-7/12 justify-center items-center max-md:w-full"
         data-aos-duration="1000"
         data-aos="fade-right"
       >
-        <div className={titleStyle}>
+        <div className="text-5xl max-md:text-xl max-md:text-center text-color-1 hover:text-color-2 justify-center pl-11 p-3 transition duration-700 ease-in-out">
           <h1>
             Layanan Server Management yang dapat disesuaikan dengan kebutuhan
             bisnis Anda
           </h1>
         </div>
-        <div className={buttonStyle}>
+        <div className="justify-center max-md:self-center max-md:m-0 max-md:p-2 max-md:text-xs p-4 ml-11 dropShadow-4xl pl-11 self-start bg-color-2 text-white hover:bg-color-1 rounded-full dropShadow-4xl">
           <a href="#layanan">Layanan Kami {"-->"}</a>
         </div>
       </div>
-      <div className={lottieContainerStyle}>
+      <div className="max-md:w-72 md:w-[500px] md:h-[500px] max-md:p-0 max-md:m-0">
         <Lottie
           data-aos="fade-down"
           animationData={animationData}
