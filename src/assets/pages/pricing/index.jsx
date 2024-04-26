@@ -1,12 +1,8 @@
 import Card from "./card/card.jsx";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { useEffect } from "react";
+
 
 function PricingView() {
-  useEffect(() => {
-    AOS.init();
-  }, []);
+
 
   const cardItems = [
     {
@@ -38,8 +34,7 @@ function PricingView() {
         <h1>Pricing</h1>
       </div>
       <div
-        data-aos="fade-up"
-        data-aos-duration="500"
+       
         className="flex w-full max-md:flex-col items-center max-md:gap-5 "
       >
         {cardItems.map((item, index) => (

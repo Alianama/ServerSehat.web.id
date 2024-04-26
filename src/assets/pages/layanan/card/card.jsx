@@ -1,9 +1,19 @@
 import "./cardStyle.css";
 import PropTypes from "prop-types";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function Card({ image, name, description }) {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
-    <div className="e-card playing">
+    <div
+      data-aos="fade-down"
+      data-aos-duration="1000"
+      className="e-card playing"
+    >
       <div className="image">
         <img src={image} width={100} alt="icon" />
       </div>

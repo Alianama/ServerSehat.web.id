@@ -1,16 +1,11 @@
 import Card from "./card/card";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { useEffect } from "react";
 import ComputerIcon from "../../icon/computer.gif";
 import BackupIcon from "../../icon/backup.gif";
 import TroubleshootIcon from "../../icon/troubleshoot.gif";
 import WarningIcon from "../../icon/warning.gif";
 
 export default function LayananView() {
-  useEffect(() => {
-    AOS.init();
-  }, []);
+
 
   const layananItems = [
     {
@@ -47,11 +42,7 @@ export default function LayananView() {
       >
         <h1>Layanan Kami</h1>
       </div>
-      <div
-        data-aos="fade-down"
-        data-aos-duration="1000"
-        className="w-full max-md:flex-col max-md:items-center max-md:gap-0 justify-center flex"
-      >
+      <div className="w-full max-md:flex-col max-md:items-center max-md:gap-0 justify-center flex">
         {layananItems.map((item) => (
           <Card
             key={item.name}

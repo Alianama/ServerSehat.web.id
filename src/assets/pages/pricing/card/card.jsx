@@ -1,9 +1,17 @@
 import PropTypes from "prop-types";
 import checklist from "../../../icon/checklist.svg";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function Card({ name, description, lists, harga }) {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div
+      data-aos="fade-up"
+      data-aos-duration="1000"
       onMouseEnter={() => console.log("mouse enter")}
       className="flex flex-col items-center rounded-3xl  border-2 border-color-2 ml-5 mr-5 pb-10 p-3 w-3/6 hover:bg-color-1 hover:text-color-white hover:scale-110 transition-all"
     >
