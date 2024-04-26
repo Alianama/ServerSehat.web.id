@@ -30,14 +30,16 @@ function PricingView() {
   ];
 
   return (
-    <div className="flex gap-10 flex-col w-full mb-40 mt-40">
+    <div
+      id="pricing"
+      className="flex gap-10 flex-col w-full mb-40 mt-40 max-md:mt-0 max-md:mb-0 max-md:pb-20 max-md:pt-20 "
+    >
       <div className=" text-color-2 text-2xl w-full flex justify-center">
         <h1>Pricing</h1>
       </div>
       <div
         data-aos="fade-up"
         data-aos-duration="500"
-        id="pricing"
         className="flex w-full max-md:flex-col items-center max-md:gap-5 "
       >
         {cardItems.map((item, index) => (

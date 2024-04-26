@@ -10,9 +10,11 @@ export default function AboutView() {
   }, []);
 
   return (
-    <div className="flex max-md:pt-0 max-md:pb-0 max-md:flex-col max-md:items-center w-full pb-36 pt-36 overflow-hidden max-md:shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] max-md:mt-30">
+    <div
+      id="tentang"
+      className="flex max-md:pb-0 max-md:flex-col max-md:items-center w-full pb-36 pt-36 overflow-hidden max-md:shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] max-md:mt-30 max-md:pt-20"
+    >
       <div
-        id="tentang"
         data-aos="fade-right"
         data-aos-duration="1000"
         className="flex flex-col w-5/12 justify-center items-center max-md:w-full"

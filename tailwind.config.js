@@ -15,6 +15,7 @@ export default {
         4: "#FFC700",
         white: "#fff",
         grey: "#757575",
+        grey2: "#eeeeee",
       },
     },
     extend: {

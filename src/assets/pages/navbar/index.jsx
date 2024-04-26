@@ -71,7 +71,7 @@ export default function NavView() {
           >
             <div className="flex w-4/5 gap-2 flex-col">
               <NavItemMobile link="#home" label="Home" />
-              <NavItemMobile link="#about" label="Tentang" />
+              <NavItemMobile link="#tentang" label="Tentang" />
               <NavItemMobile link="#layanan" label="Layanan" />
               <NavItemMobile link="#pricing" label="Pricing" />
               <NavItemMobile link="#Klien" label="Klien" />

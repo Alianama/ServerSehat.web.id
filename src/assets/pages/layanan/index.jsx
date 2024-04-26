@@ -40,7 +40,7 @@ export default function LayananView() {
   ];
 
   return (
-    <div className="flex flex-col w-full justify-center max-md:pb-10 max-md:pt-10 pb-20">
+    <div className="flex flex-col w-full justify-center max-md:pb-0 max-md:pt-10 pb-20 max-md:shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] max-md:mt-30">
       <div
         id="layanan"
         className="flex justify-center text-color-2 text-2xl pt-20 -mt-20"
