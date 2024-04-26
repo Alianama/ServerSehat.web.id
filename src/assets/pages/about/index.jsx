@@ -26,7 +26,7 @@ export default function AboutView() {
         <p
           data-aos="fade-left"
           data-aos-duration="1000"
-          className="text-sm max-md:text-center max-md:pb-0 max-md:p-7 text-color-2 pl-11"
+          className="text-sm font-normal max-md:text-center max-md:pb-0 max-md:p-7 text-color-2 pl-11"
         >
           Manajemen Server merupakan serangkaian kegiatan yang mencakup
           perencanaan, penataan, pemeliharaan, dan perbaikan infrastruktur

@@ -19,7 +19,7 @@ export default function Home() {
         data-aos-duration="1000"
         data-aos="fade-right"
       >
-        <div className="text-5xl max-md:text-xl max-md:text-center text-color-1 hover:text-color-2 justify-center pl-11 p-3 transition duration-700 ease-in-out">
+        <div className="text-5xl max-md:text-xl max-md:text-center text-color-1 hover:text-color-2 justify-center max-md:p-0 pl-11 p-3 transition duration-700 ease-in-out">
           <h1>
             Layanan Server Management yang dapat disesuaikan dengan kebutuhan
             bisnis Anda
