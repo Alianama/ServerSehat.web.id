@@ -14,16 +14,20 @@ export default function AboutView() {
       id="tentang"
       className="flex max-md:pb-0 max-md:flex-col max-md:items-center w-full pb-36 pt-36 overflow-hidden max-md:shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] max-md:mt-30 max-md:pt-20"
     >
-      <div
-        data-aos="fade-right"
-        data-aos-duration="1000"
-        className="flex flex-col w-5/12 justify-center items-center max-md:w-full"
-      >
-        <h1 className="text-2xl justify-center max-md:p-7 max-md:pb-0 max-md:text-center pl-11  text-color-1 max-md:text-xl">
+      <div className="flex flex-col w-5/12 justify-center items-center max-md:w-full">
+        <h1
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          className="text-2xl justify-center max-md:p-7 max-md:pb-0 max-md:text-center pl-11  text-color-1 max-md:text-xl"
+        >
           Manajemen Server - merencanakan, menata, merawat, dan melakukan
           perbaikan pada infrastruktur server/komputer
         </h1>
-        <p className="text-sm max-md:text-center max-md:pb-0 max-md:p-7 text-color-2 pl-11">
+        <p
+          data-aos="fade-left"
+          data-aos-duration="1000"
+          className="text-sm max-md:text-center max-md:pb-0 max-md:p-7 text-color-2 pl-11"
+        >
           Manajemen Server merupakan serangkaian kegiatan yang mencakup
           perencanaan, penataan, pemeliharaan, dan perbaikan infrastruktur
           server. Ini meliputi pemasangan dan konfigurasi server, pemantauan
